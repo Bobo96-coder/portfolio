@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bojerell | Personal Portfolio</title>
     <!-- script or stylesheets -->
+     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -13,32 +14,123 @@
     be a dark blue to dark blue to dark purple gradient 
     this section will also contain two cta buttons and 
     and a navigation bar-->
-
+    <header class="header">
+        <nav class="nav bar">
+            <ul class="nav-list">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+            <h1>Bojerell Van Wyk</h1>
+                <p>
+                    Welcome to my peresonal portfolio website!
+                </p>
+                <p>    
+                    I am someone who is passionate about web development and     
+                    computers in general. I have a strong desire to learn and
+                </p>
+                <p>
+                    grow in the field of web development. Thank you for visiting!
+                </p>
+  
     <!-- the button design will be white background with
       dark text -->
-
+                <p>
+                    <button class="cta-button">Contact Me</button>
+                    <button class="cta-button">About me</button>
+                </p>
+        </header>        
     <!--the paragraphs outside the main head section
     will contain the About section content which will
     have a light background and dark text the text will
     be aligned center -->
-
+            <h2>About Me</h2>
+                <p>
+                    I am a person who has grown up with a passion
+                    for computers and technology. I have always been
+                    been facinated by how computers work. I have experince
+                    in sctach and html and css as well as some experience in
+                    wordpress. 
+                </p>
     <!-- Skills section.the skills will be put into cards in
      in a grad that has 3 colimns and 3 rows with an added
      description for each skill -->
-
+            <h2>Skills</h2>
+                <div class="skill-grid">
+                    <div class="skill-card1">
+                        <h3>HTML</h3>
+                        <p>Experience in creating structured web pages using HTML5.</p>
+                    </div>
+                    <div class="skill-card2">
+                        <h3>CSS</h3>
+                        <p>Experience in styling web pages using CSS and tailwind.</p>
+                    </div>
+                    <div class="skill-card3">
+                        <h3>Wordpress</h3>
+                        <p>Experience in creating and customizing websites using WordPress.</p>
+                    </div>
+                    <div class="skill-card4">
+                        <h3>Scratch</h3>
+                        <p>Experience in creating interactive projects using Scratch.</p>
+                    </div>
+                    <div class="skill-card5">
+                        <h3>MicrosoftWord</h3>
+                        <p>Experience in creating and formatting documents using Microsoft Word.</p>
+                    </div>
+                    <div class="skill-card6">
+                        <h3>MicrosoftExcel</h3>
+                        <p>Experience in creating and formatting spreadsheets using Microsoft Excel.</p>
+                    </div>
+                </div>
     <!-- the educatoin section will only contain the information
       fro when I matriulated and go  -->
-
+            <h2>Education</h2>
+                <p>
+                    I matriculated in 2024 at the age of 19. I am currently
+                    furthering my education in web development and computer
+                    scienece at Unicollege.
+                </p>
 
       <!-- Project section will follow the same format as the
        skills section with a added sentence describing the project -->
+            <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A personal portfolio website showcasing my skills and projects.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Blog Website</h3>
+                        <p>A blog website created using WordPress, featuring custom themes and plugins.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Interactive Game</h3>
+                        <p>An interactive game developed using Scratch, designed to teach basic programming concepts.</p>
+                    </div>
+                </div>
 
        <!-- Finally the contact section will be a email form that 
         people can contact you via the email form, the form will be 
         in a seperate block of its owna and the backround colour will
         be an off white to make it stand out and define the block it is
         in a little   -->
+            <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
 </body>
 </html>
