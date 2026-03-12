@@ -73,15 +73,15 @@
             background-color: #e0e0e0;
             color: #181717;
         }
-        .card-container {
+        .card-grid {
             display: grid;
-            justify-content: center;
-            gap: 20px;
             grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
             padding: 20px;
-        }       
+        }
         
-        .card {
+        .skill-card {
             background-color: #ccc;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -89,19 +89,5 @@
             text-align: center;
         }
 
-        .skill-card1, .skill-card2, .skill-card3, .skill-card4, .skill-card5, .skill-card6 {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
+    
 
-[class="skill-card1"] [class="skill-card2"] [class="skill-card3"]
-[class="skill-card4"] [class="skill-card5"] [class="skill-card6"] {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-}
