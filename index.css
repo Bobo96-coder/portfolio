@@ -3,8 +3,8 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4;
-        color: #181717;
+        background-color: #fff;
+        color: #080808;
         text-align: center;
     }
 
@@ -39,9 +39,9 @@
 
     /* CTA Button styles */
     .cta-button {
-        background-color:#0606b8;
-        color: #ffffff;
-        border: none;
+        background-color: white;
+        color: #111111;
+        border: 1 rem solid #8401cf;
         padding: 10px 20px;
         font-size: 16px;
         cursor: pointer;
@@ -49,8 +49,9 @@
     }
 
     .cta-button:hover {
-        background-color: none;
-        text-decoration: underline;
+        transition: background-color 0.3s ease;
+        background-color: #8401cf;
+        color: #fff;
     }
 
      /* Section styles */
@@ -73,21 +74,91 @@
             background-color: #e0e0e0;
             color: #181717;
         }
-        .card-grid {
+        
+        .skill-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #080808;
+            color:#fff;
+            border: 1px solid #8401cf;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .skill-card:hover{
+            transform: translatey(-5px) ;
+            transition: background-color 0.3s ease;
+            background: linear-gradient(to right, #8401cf, #0000ff);
+            color: #fff;
+        }
+        
+        .skill-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, auto);
             gap: 20px;
             padding: 20px;
         }
-        
-        .skill-card {
-            background-color: #ccc;
-            border: 1px solid #ddd;
+
+        /* Projects section styles */
+        #Projects {
+            background-color: #ffffff;
+            color: #181717;
+        }
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #080808;
+            color: #fff;
+            border: 1px solid #8401cf;
             border-radius: 8px;
             padding: 20px;
             text-align: center;
         }
 
-    
+        .project-card:hover{
+            transform: translatey(-5px) ;
+            transition: background-color 0.3s ease;
+            background: linear-gradient(to right, #8401cf, #0000ff);
+            color: #fff;
+        }
 
+        .project-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 20px;
+            padding: 20px;
+        }
+
+
+        /* Contact section styles */
+        #Contact {
+            background-color: #e0e0e0;
+            color: #181717;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #080808;
+            color: #ffffff;
+            border: solid 1px #8401cf;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            transition: background-color 0.3s ease;
+            background-color: #8401cf;
+            color: white;
+            text-decoration: underline;
+        }
