@@ -129,14 +129,14 @@
             gap: 20px;
             padding: 20px;
         }
-        
-        @media (min-width: 768px) {
+        /*tablets and small desktops */
+        @media (min-width: 600px) {
             .skill-grid, .project-grid {
                 columns: repeat(2, 1fr);
             }
         }
-
-        @media (min-width: 480px) {
+        /*desktops and larger screens */
+        @media (min-width: 1024px) {
             .skill-grid, .project-grid {
                 columns: repeat(1, 1fr);
             }
