@@ -130,19 +130,19 @@
             padding: 20px;
         }
         
-        @media (min-width: 600px) {
+        @media (max-width: 600px) {
             .skill-grid, .project-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
 
-        @media (min-width: 768px) {
+        @media (max-width: 768px) {
             .skill-grid, .project-grid {
                 grid-template-columns: repeat(3, 1fr);
             }
         }
 
-        @media (min-width: 400px) {
+        @media (max-width: 400px) {
             .skill-grid, .project-grid {
                 grid-template-columns: repeat(1, 1fr);
             }
