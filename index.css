@@ -94,7 +94,7 @@
         
         .skill-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr;
             grid-template-rows: repeat(2, auto);
             gap: 20px;
             padding: 20px;
@@ -124,17 +124,19 @@
 
         .project-grid{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr;
             grid-template-rows: repeat(2, auto);
             gap: 20px;
             padding: 20px;
         }
+
         /*tablets and small desktops */
         @media (min-width: 600px) {
             .skill-grid, .project-grid {
                 columns: repeat(2, 1fr);
             }
         }
+
         /*desktops and larger screens */
         @media (min-width: 1024px) {
             .skill-grid, .project-grid {
