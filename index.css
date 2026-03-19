@@ -95,7 +95,6 @@
         .skill-grid {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: repeat(2, auto);
             gap: 20px;
             padding: 20px;
         }
@@ -125,7 +124,6 @@
         .project-grid{
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: repeat(2, auto);
             gap: 20px;
             padding: 20px;
         }
