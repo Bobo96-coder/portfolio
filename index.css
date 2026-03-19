@@ -129,24 +129,6 @@
             gap: 20px;
             padding: 20px;
         }
-        
-        @media (max-width: 600px) {
-            .skill-grid, .project-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .skill-grid, .project-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        @media (max-width: 400px) {
-            .skill-grid, .project-grid {
-                grid-template-columns: repeat(1, 1fr);
-            }
-        }
 
         /* Contact section styles */
         #Contact {
